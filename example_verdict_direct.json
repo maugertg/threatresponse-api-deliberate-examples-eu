@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "module": "AMP File Reputation",
+      "module_instance_id": "69a9caf9-d0aa-4af2-82b6-47785c56cc2d",
+      "module_type_id": "1898d0e8-45f7-550d-8ab5-915f064426dd",
+      "data": {
+        "verdicts": {
+          "count": 0,
+          "docs": []
+        }
+      }
+    },
+    {
+      "module": "Talos Intelligence",
+      "module_instance_id": "c70084cf-54f8-4ccd-9cdb-95e490cca9fc",
+      "module_type_id": "2460c99b-2f01-523b-a65d-30a3c6603245",
+      "data": {
+        "verdicts": {
+          "count": 1,
+          "docs": [
+            {
+              "type": "verdict",
+              "disposition": 2,
+              "observable": {
+                "value": "45.146.165.37",
+                "type": "ip"
+              },
+              "disposition_name": "Malicious",
+              "valid_time": {
+                "start_time": "2022-01-13T17:35:14.047Z",
+                "end_time": "2022-02-12T17:35:14.047Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
