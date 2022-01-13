@@ -1,4 +1,5 @@
 Example scripts for querying the Threat Response EU cloud for obersvable verdicts:
+
 **enrich_direct.py**
 Queries the API manually creating an access token directly interacting with the API endpoints
 
